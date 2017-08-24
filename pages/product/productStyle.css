@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pSrc {
+    color: wheat;
+}
+.box0 {
+    font-size: 22px;
+    margin-left: 55%;
+    margin-bottom: 15px;
+}
+
+.box1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.box2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.box2:hover {
+    color: whitesmoke;
+}
+
+
+.box2  img{
+    margin-top: 0;
+    margin-left: 60px;
+    height: 75px;
+    width: 162px;
+}
+
+.box2 input[type=button] {
+    color: red;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.box2 a {
+    color: white;
+}
+
+.box2 a:hover {
+    color:white;
+}

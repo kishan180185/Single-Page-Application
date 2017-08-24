@@ -1,0 +1,51 @@
+
+<div class="container"> 
+<div ng-controller="product as vm">
+    <div class="row">
+        <div class="box0">
+            <label class="pSrc">Search:</label>
+            <input  type="text" ng-model="kp" placeholder="Search for Product" />
+        </div>
+    </div>
+    <div class="row">
+       
+        <div class="box1">
+            <div class="well col-lg-3" style="background-color: white;">Model
+                <select  class="order-by" ng-model="order" id="orderBy">
+						<option value="model">Name: A - Z</option>
+						<option value="-model">Name: A - Z</option>
+				</select>
+            </div>
+            <div class="well col-lg-3" style="background-color:lightgray;">ProductName	</div>
+            <div class="well col-lg-3"  style="background-color:white;">Price
+                <select  class="order-by" ng-model="order" id="orderBy">
+						<option value="price-low-high">price: low - high</option>
+						<option value="-price-high-low">price: high - low</option>
+				</select>	
+            </div>
+            <div class="well col-lg-3" style="background-color:lightgray;">Image</div>
+            
+            <div class="box2">
+                <div ng-repeat="x in vm.empl | filter:kp | orderBy: order">
+                   
+                    <div class="col-sm-3" > <a href="#{{x.model }}">{{x.model }}<a></div>
+                    
+                    <div class="col-sm-3">{{x.productName}}</div>
+                    <div class="col-sm-3">{{x.price | currency}}</div>
+                    <div class="col-sm-1" >
+                        <div  ng-controller="product1 as vm">
+                        <input type="button" value="Show Hide img" ng-click="vm.ShowHide()" style="margin-left:85%; color:brown;" />
+                        <div ng-show = "vm.IsVisible" ><img  ng-src="{{x.image}}"></div><br><br><br>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+        
+
+

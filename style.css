@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+/*-----------------------------NAV----------------------------------*/
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+
+img {
+    height: 120px;
+    width: 220px;
+    float: left;
+    margin-top: 25px;
+}
+
+.kp {
+    margin-left: 45%;
+}
+
+.kp a{
+   
+    font-size: 25px;
+    font-weight: 600;
+}
+
+li {
+    
+    font-size: 25px;
+    text-decoration: none;
+    list-style:none;
+    float: left;
+    margin-top: 35px;
+    padding: 20px;
+}

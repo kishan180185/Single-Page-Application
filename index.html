@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Angular Routing</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="pages/about/aboutStyle.css">
+        <link rel="stylesheet" type="text/css" href="pages/product/productStyle.css">
+        <link rel="stylesheet" type="text/css" href="pages/product/AllModle/modle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-route.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+    <header>
+        <div class="container">
+            <nav>
+            <div class="row">
+                    <img src="img/logo1.png" alt="logo of kp">
+                <div class="kp">
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#product">PRODUCT</a></li>
+                        <li><a href="#aboutUs">ABOUT</a></li>
+                        <li><a href="#photos">PHOTOS</a></li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+        </div>
+      </header> 
+        <div ng-view></div>
+    </body>
+</html>

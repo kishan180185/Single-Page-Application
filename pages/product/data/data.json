@@ -1,0 +1,34 @@
+[
+        {        "model":"GTB488",
+                 "productName":"Ferrari", 
+                 "price": 249150,
+                 "image": "img/488gtb.jpg" 
+        },
+        
+        {        "model":"Sperfast812",
+                 "productName":"Ferrari", 
+                 "price": 31500,
+                 "image":"img/812superfast.jpg"
+        },
+         
+        {        "model":"California T",
+                 "productName":"Ferrari", 
+                 "price": 206473,
+                 "image":"img/californiaT.jpg"
+        },
+
+        {        "model":"GTC4Lusso",
+                 "productName":"Ferrari", 
+                 "price": 300000,
+                 "image":"img/gtc4Lusso.jpg"
+        },
+
+        {        "model":"LaFerrari",
+                 "productName":"Ferrari", 
+                 "price": 1420112,
+                 "image":"img/laFerrari.jpg"
+        }
+
+        
+            
+]
